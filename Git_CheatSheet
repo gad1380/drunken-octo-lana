@@ -1,0 +1,47 @@
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+cd                                                                              change directory
+cd ~                                                                            brings you home to user directory
+pwd                                                                             present working directory report
+ls                                                                              list folders/files in current directory
+ls -la                                                                          shows the hidden files as well
+
+mk dir [directory name]                                                 make directory
+rmdir  [directory name]                                                 destroy directory
+
+touch [file name with extension]                                make a blank file
+mv [filename] [destination directory/]
+history                                                                         all typed commands get pulled up
+
+from github copy ssh
+git clone [ssh clone URL from git repo]                 copies git repo to your local machine
+atom README.md                                                  opens atom and the file
+git status                                                                      shows what has changed
+git add .                                                                       add all changes to git
+git add [filename]                                                      add changes from this file
+git commit -m                                                           commits changes that have been added with a message
+
+git commit -am                                                          commits all changes with a message
+
+git push origin master                                          push to github repo (master is the branch name)
+
+cd ../  or cd ..                                                        brings you one dir up
+
+fork repo, clone your forked version, change files, git add . git status git push origin master will add changes to your forked version.
+
+git pull your most recent online version
+git checkout the other branch, pull the other branch
+use checkout to switch back to your branch, merge the two, push to the origin master again
+
+
+git log shows all changes made
+copy the commit id that matches the right message you made for yourself
+
+help    give you a summary of cammands
+
+git checkout [id]
+
+http://stackoverflow.com/questions/4114095/revert-to-a-previous-git-commit
+
+
+ADD > COMMIT > THEN PUSH GAVIN!
