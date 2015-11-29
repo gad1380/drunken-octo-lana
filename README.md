@@ -1,4 +1,2 @@
-# drunken-octo-lana
-Test repository
-##Header 2
-###Header 3
+###Learning Python The Hard Way
+URL: http://learnpythonthehardway.org/book/ex7.html
