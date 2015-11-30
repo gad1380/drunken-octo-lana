@@ -7,5 +7,3 @@ weight = raw_input()
 
 print "So, you're %r years old, %r feet tall and %r lbs heavy." % (
     age, height, weight)
-
-Testing Github
