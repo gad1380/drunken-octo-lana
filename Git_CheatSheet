@@ -37,6 +37,12 @@ use checkout to switch back to your branch, merge the two, push to the origin ma
 git log shows all changes made
 copy the commit id that matches the right message you made for yourself
 
+RESET BACK TO PAST COMMIT
+You can reset your branch to the state it was in just before the merge if you find the commit it was on then.
+One way is to use git reflog, it will list all the HEADs you've had. I find that git reflog --relative-date is very useful as it shows how long ago each change happend.
+Once you find that commit just do a git reset --hard <commit id> and your branch will be as it was before.
+
+
 help    give you a summary of cammands
 
 git checkout [id]
